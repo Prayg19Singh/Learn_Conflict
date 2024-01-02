@@ -17,6 +17,7 @@ public class HaiServlet extends HttpServlet {
 	public void service(ServletRequest req, ServletResponse res) {
 		System.out.println("service method in HaiServlet");
 	}
+	System.out.println(" Hai!!!  changes have done from Central repo by other developer"); 
 	public void destroy() {
 		System.out.println("destroy method in HaiServlet");
 	}
